@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import cluster from 'cluster';
 import os from 'os';
 import { initializeDatabase } from './dbconnection';
-import router from '../router';
+import router from './router';
 import { consul, discoverService } from './consul';
 
 
